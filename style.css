@@ -1,0 +1,185 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+
+    width: 1600px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: right;
+    height: 808px;
+
+    background-image: url(images/banner/banner3.png);
+
+}
+
+.top-banner-info {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 230px;
+
+
+
+    width: 50%;
+}
+
+.contact-button {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+.about {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+
+
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.about-info p {
+    padding-left: 40px;
+}
+
+.about-info {
+    padding-top: 239px;
+}
+
+
+.click-icon {
+    color: green;
+}
+
+.about-info ul {
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.about img img {
+    width: 100%;
+}
+
+.plan-part h3 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plan-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 230px 0 230px;
+}
+
+.plan-details {
+    text-align: center;
+}
+
+.positive-banner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 300px;
+    background-image: url(images/watch1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.positive-info {
+    padding-top: 10px;
+    padding-left: 300px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.call-btn {
+
+    height: 64px;
+    width: 160px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    padding-top: 142px;
+
+    justify-content: space-around;
+    background-color: #151414;
+}
+
+.footer-info {
+    color: #F8F8F8;
+}
+
+.social-icon {
+    /* display: flex;
+    justify-content: center; */
+    padding: 20px;
+}
+
+.footer-info h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.footer-login {
+    color: #F8F8F8;
+
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.mail {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #151414;
+    color: #F8F8F8;
+
+}
+
+.submit-btn {
+    padding-top: 40px;
+}
+
+.btn {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 64px;
+    width: 160px;
+}
